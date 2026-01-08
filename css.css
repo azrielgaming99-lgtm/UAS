@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: #bfe7ea;
+    padding: 10px;
+    position: relative;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 80px;
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%); 
+}
+
+.judul {
+    position: absolute;      
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.judul h1 {
+    margin: 0;
+    text-align: center;
+    font-size: 22px;
+}
+
+.judul p {
+    margin: 0;
+    text-align: center;
+    font-size: 18px;
+}
+
+.menu {
+    background-color: #eaeaea;
+    padding: 15px;
+}
+
+.menu h3 {
+    text-align: center;
+}
+
+.menu button {
+    width: 100%;
+    padding: 8px;
+    background-color: #c40000;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.content {
+    padding: 50px;
+}
+
+.content table td {
+    padding: 5px;
+}
+
+.btn-submit {
+    background-color: green;
+    color: white;
+    padding: 8px 20px;
+    border: none;
+}
+
+.footer {
+    background-color: #bfe7ea;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 12px;
+}
+
+.judul-jadwal {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+
+.jadwal {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 14px;
+}
+
+.jadwal th,
+.jadwal td {
+    border: 1px solid #333;
+    padding: 8px;
+}
+
+
+.waktu {
+    background-color: #e6e6e6;
+    font-weight: bold;
+}
+
+.senin {
+    background-color: #ffd6d6;
+}
+
+.selasa {
+    background-color: #ccffcc;
+}
+
+.rabu {
+    background-color: #ccccff;
+}
+
+.kamis {
+    background-color: #fff2b3;
+}
+
+.istirahat {
+    background-color: #e6e6e6;
+    font-weight: bold;
+}
+.menu-btn {
+    display: block;
+    width: 80%;
+    padding: 10px;
+    background-color: #c40000;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 10px;
+}
